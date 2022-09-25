@@ -1,1 +1,0 @@
-# Thinohsha.github.io
