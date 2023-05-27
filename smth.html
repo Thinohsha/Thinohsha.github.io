@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Impress My Girl</title>
+  <style>
+    body {
+      background-color: pink;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: white;
+      font-size: 36px;
+    }
+
+    p {
+      color: black;
+      font-size: 24px;
+    }
+
+    #love-heart {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      border-radius: 50%;
+      position: relative;
+      margin: 50px auto;
+      animation: heartbeat 1s infinite;
+    }
+
+    #love-heart:before,
+    #love-heart:after {
+      content: "";
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      border-radius: 50%;
+    }
+
+    #love-heart:before {
+      top: -100px;
+      left: 0;
+    }
+
+    #love-heart:after {
+      top: 0;
+      left: 100px;
+    }
+
+    @keyframes heartbeat {
+      0% {
+        transform: scale(0.6);
+      }
+      50% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(0.6);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>For My Special Girl</h1>
+  <div id="love-heart"></div>
+  <p>You mean the world to me. I love you more than words can express.</p>
+</body>
+</html>
